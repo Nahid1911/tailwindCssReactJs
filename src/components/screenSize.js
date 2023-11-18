@@ -1,7 +1,7 @@
 function ScreenSize () {
   return (
     <div>
-    <h1 className='italic mt-8 text-red-500 font-extrabold text-2xl'>TailwindCSS Screen Size Visualization</h1>
+    <h1 className='italic mt-8 text-red-500 font-extrabold text-2xl text-center'>TailwindCSS Screen Size Visualization</h1>
     <p className="text-center">This is a simple example of how to use Tailwind CSS's screen size classes</p>
     <p className="text-center">Resize your browser window to see the effect</p>
     <p className="text-center">The background color changes at the following breakpoints:<span className="font-bold text-lg text-red-400"> sm, md, lg, xl, 2xl</span></p>
