@@ -1,5 +1,4 @@
-import React, { Fragment } from "react";
-import { Menu, Transition } from "@headlessui/react";
+import { Menu } from "@headlessui/react";
 export default function NavBar() {
   return (
     <div className="flex flex-row justify-between p-4 text-blue-100 text-xl bg-blue-950">
@@ -15,8 +14,7 @@ export default function NavBar() {
               <span className="relative">Prof</span>
             </Menu.Button>
           </div>
-          <Transition as={Fragment} className="rounded-xl p-4">
-            <Menu.Items className="absolute right-0 z-10 mt-2 w-48 bg-blue-900">
+            <Menu.Items className="absolute right-0 z-10 mt-2 w-48 rounded-xl bg-blue-900">
               <Menu.Item className="block border-r-amber-600">
                 <a href=" " className="">Head-1</a>
               </Menu.Item>
@@ -27,7 +25,6 @@ export default function NavBar() {
                 <a href=" ">Head-3</a>
               </Menu.Item>
             </Menu.Items>
-          </Transition>
         </Menu>
       </div>
     </div>
