@@ -10,15 +10,16 @@ export default function Dropdown() {
             </span>
           </Menu.Button>
         </div>
-        <Menu.Items>
-          <Menu.Item>Dropdown List-1</Menu.Item>
-          <Menu.Item>Dropdown List-2</Menu.Item>
-          <Menu.Item>Dropdown List-3</Menu.Item>
-          <Menu.Item>Dropdown List-4</Menu.Item>
-          <Menu.Item>Dropdown List-5</Menu.Item>
-          <Menu.Item>Dropdown List-6</Menu.Item>
+        <Menu.Items as="ul">
+          <Menu.Item as="li" className="flex justify-center">Dropdown List-1</Menu.Item>
+          <Menu.Item as="li" className="flex justify-center">Dropdown List-2</Menu.Item>
+          <Menu.Item as="li" className="flex justify-center">Dropdown List-3</Menu.Item>
+          <Menu.Item as="li" className="flex justify-center">Dropdown List-4</Menu.Item>
+          <Menu.Item as="li" className="flex justify-center">Dropdown List-5</Menu.Item>
+          <Menu.Item as="li" className="flex justify-center">Dropdown List-6</Menu.Item>
         </Menu.Items>
       </Menu>
+      <p>I am a paragraph</p>
     </div>
   )
 }
