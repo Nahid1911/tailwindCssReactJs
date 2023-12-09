@@ -29,6 +29,7 @@ export default function NavBar() {
             <Menu.Items className="absolute w-40 left-0 bg-slate-500 rounded-lg text-green-200 text-left text-sm mt-1 p-2 border">
               <Menu.Item className="block border rounded p-1"><Link to="/">Screen Size</Link></Menu.Item>
               <Menu.Item className="block border rounded p-1 mt-1"><Link to="/dropdown">Tailwind Dropdown</Link></Menu.Item>
+              <Menu.Item className="block border rounded p-1 mt-1"><Link to="/boxsize">Margin, Padding</Link></Menu.Item>
             </Menu.Items>
           </Transition>
         </Menu>

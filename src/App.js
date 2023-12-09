@@ -4,6 +4,7 @@ import "./App.css";
 import ScreenSize from "./components/screenSize";
 import NavBar from "./components/navBar";
 import Dropdown from "./components/Dropdown";
+import MarginPadding from "./components/MarginPadding";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<NavBar />}>
           <Route index element={<ScreenSize />}></Route>
           <Route path="dropdown" element={<Dropdown />}></Route>
+          <Route path="boxsize" element={<MarginPadding />}></Route>
         </Route>
       </Routes>
     </BrowserRouter >
